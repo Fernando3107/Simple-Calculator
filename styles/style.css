@@ -65,7 +65,12 @@ p {
 }
 
 a {
-    color: rgb(238, 255, 0);   
+    color: rgb(238, 255, 0);
+    transition: 0.15s ease-in-out; 
+}
+
+a:hover {
+    font-size: 22px;
 }
 
 #result {
