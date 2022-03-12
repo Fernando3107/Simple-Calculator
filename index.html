@@ -14,9 +14,9 @@
     </header>
 
     <div id="form">
-        <input type="number" id="number1" placeholder="Enter the first number">
+        <input type="number" id="number1" placeholder="Enter the first number" tabindex="1">
         <div class="operation">
-            <select id="selector">
+            <select id="selector" tabindex="2">
                 <option value="+">+</option>
                 <option value="-">-</option>
                 <option value="*">x</option>
@@ -24,8 +24,8 @@
             </select>
         </div>
         
-        <input type="number" id="number2" placeholder="Enter the second number">
-        <button onclick="calculate()">Calculate</button>
+        <input type="number" id="number2" placeholder="Enter the second number" tabindex="3">
+        <button onclick="calculate()" tabindex="4">Calculate</button>
     </div>
 
     <div>
