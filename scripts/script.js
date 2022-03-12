@@ -17,7 +17,7 @@ function calculate(number1, number2) {
 
         case '*':
             calculation = (n1 * n2)
-            document.getElementById("result").innerHTML = `${n1} * ${n2} = ${calculation}`
+            document.getElementById("result").innerHTML = `${n1} x ${n2} = ${calculation}`
             break
 
         case '/':
@@ -27,10 +27,10 @@ function calculate(number1, number2) {
             }
 
             else if (calculation == Infinity) {
-                document.getElementById("result").innerHTML = `${n1} / ${n2} = ${n1}`
+                document.getElementById("result").innerHTML = `${n1} ÷ ${n2} = ${n1}`
             }
             else {
-                document.getElementById("result").innerHTML = `${n1} / ${n2} = ${calculation}`
+                document.getElementById("result").innerHTML = `${n1} ÷ ${n2} = ${calculation}`
             }
             break
     }
